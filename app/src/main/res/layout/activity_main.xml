@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_a_county_name"
+            android:inputType="text"
+            android:text="@string/know_your_city_oakland_ca"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/oakland_ca" />
+
+        <TextView
+            android:id="@+id/textViewQ1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/when_was_oakland_founded"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonQ1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1776" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1900" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1852" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/what_is_the_current_population"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonQ2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_420_000" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_150_000" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQ2c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_5_million" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/what_major_league_sports_teams_are_present"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxQ3a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/the_athletics" />
+
+        <CheckBox
+            android:id="@+id/checkBoxQ3b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/the_giants" />
+
+        <CheckBox
+            android:id="@+id/checkBoxQ3c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/the_raiders" />
+
+        <CheckBox
+            android:id="@+id/checkBoxQ3d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/the_warriors" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/what_county_is_oakland_in"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextQ4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/button_submit_answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#56CA4A"
+            android:onClick="CheckAnswers"
+            android:padding="10dp"
+            android:text="@string/submit_answers"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QuizProject</string>
+    <string name="when_was_oakland_founded">1. About when was Oakland founded?</string>
+    <string name="know_your_city_oakland_ca">Know Your City: Oakland CA</string>
+    <string name="enter_a_county_name">Enter a county name</string>
+    <string name="_1776">1776</string>
+    <string name="_1900">1900</string>
+    <string name="_1852">1852</string>
+    <string name="what_is_the_current_population">2. About what is the current population?</string>
+    <string name="_420_000">420,000</string>
+    <string name="_150_000">150,000</string>
+    <string name="_1_5_million">1.5 Million</string>
+    <string name="what_major_league_sports_teams_are_present">3. What major league sports teams are present?</string>
+    <string name="the_athletics">The Athletics</string>
+    <string name="the_giants">The Giants</string>
+    <string name="the_raiders">The Raiders</string>
+    <string name="the_warriors">The Warriors</string>
+    <string name="what_county_is_oakland_in">4. What county is Oakland in?</string>
+    <string name="submit_answers">SUBMIT ANSWERS</string>
+</resources>
