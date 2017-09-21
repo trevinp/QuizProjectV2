@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    protected void CheckAnswers(View view) {
+    protected void CheckAnswers(View v) {
         int numCorrectAnswers = 0;
 
         Boolean rbq1c = ((RadioButton) findViewById(R.id.radioButtonQ1c)).isChecked();
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         if ((cbq3a && cbq3c && cbq3d) && (!cbq3b)) numCorrectAnswers++;
 
-        if (county.compareToIgnoreCase("alameda") == 0) numCorrectAnswers++;
+        if (county.trim().compareToIgnoreCase("alameda") == 0) numCorrectAnswers++;
 
         Context context = getApplicationContext();
         CharSequence text;
